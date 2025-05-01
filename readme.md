@@ -79,12 +79,3 @@ tree.setRoot(root);
 // Traverse the tree
 tree.inOrderTraversal(tree.getRoot(), System.out::println);
 ```
-
-## Answers to Thought-Provoking Questions
-
-1. **How is a binary tree with one long branch related to a linked list?**
-   
-   A binary tree with only one long branch (where each node has at most one child) is essentially a linked list. 
-   In this degenerative case, the binary tree loses its branching structure and becomes a linear data structure
-   where each node points to exactly one next node, which is the definition of a linked list. The time complexity
-   for
